@@ -8,13 +8,13 @@ My work focuses on ice-nucleation parameterizations, aerosol and ice budgets, an
 
 ## Research highlight
 
-**How does the freezing parameterization shape the INP reservoir?**
+**How do freezing parameterizations and entrainment shape cloud ice?**
 
-Our AC-1D simulations compare the evolution of INP reservoirs for dust, organic aerosol, and sea spray aerosol. The choice of freezing scheme changes both the reservoir and its response to cloud cooling and entrainment.
+Our AC-1D simulations examine how aerosol types and freezing parameterizations influence ice crystal budgets in mixed-phase clouds. The graphic below illustrates the contrasting evolution of ice crystal concentrations for CNT-based and singular schemes under weak and strong entrainment.
 
-[![Figure 4 from Sun et al. (2026): INP reservoir evolution under different freezing parameterizations, aerosol types, cooling and entrainment conditions](https://gmd.copernicus.org/articles/19/1581/2026/gmd-19-1581-2026-f04-thumb.png)](https://gmd.copernicus.org/articles/19/1581/2026/gmd-19-1581-2026-f04-high-res.pdf)
+[![GMD research graphic: ice crystal concentrations for CNT-based and singular freezing schemes under weak and strong entrainment](https://gmd.copernicus.org/articles/19/1581/2026/gmd-19-1581-2026-avatar-web.png)](https://doi.org/10.5194/gmd-19-1581-2026)
 
-*Figure 4 from Sun, Fridlind, Silber, Riemer & Knopf (2026), Geoscientific Model Development, 19, 1581–1617. Reproduced without modification under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Click the figure for the high-resolution version.*
+*Article graphic from Sun, Fridlind, Silber, Riemer & Knopf (2026), Geoscientific Model Development, 19, 1581–1617. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 [Read the paper](https://doi.org/10.5194/gmd-19-1581-2026) · [Model code and sensitivity tests](https://doi.org/10.5281/zenodo.16414825) · [Analysis scripts](https://doi.org/10.5281/zenodo.16414282) · [Simulation data](https://doi.org/10.5281/zenodo.16413525)
 
@@ -29,6 +29,10 @@ I contribute to the development and application of AC-1D, a Python model for inv
 ### COMBLE aerosol–INP closure
 
 With Daniel A. Knopf, I contributed the aerosol–INP closure tutorial to the COMBLE Model–Observation Intercomparison Project Cookbook. The notebook uses measured aerosol size distributions to compare predictions from different immersion-freezing parameterizations with observed INP concentrations at COMBLE and Zeppelin.
+
+[![COMBLE aerosol–INP closure: observed versus predicted INP concentrations across immersion-freezing parameterizations](https://github.com/yijias33/COMBLEZeppelinfigures/blob/main/comble_aerosol_inp_closure_aw1.png?raw=true)](https://arm-development.github.io/comble-mip/notebooks/setup/aerosol-inp-closure.html)
+
+*COMBLE closure example from the aerosol–INP tutorial by Yijia Sun and Daniel A. Knopf. Colors indicate temperature; the black line marks 1:1 agreement.*
 
 [Read the tutorial](https://arm-development.github.io/comble-mip/notebooks/setup/aerosol-inp-closure.html) · [COMBLE-MIP repository](https://github.com/ARM-Development/comble-mip)
 
